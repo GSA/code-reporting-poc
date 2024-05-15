@@ -1,0 +1,16 @@
+{
+  "name": "code-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "eleventy",
+    "dev": "eleventy --serve",
+    "inventory": "mkdir -p _data && npx codeclerk -t GITHUB_TOKEN -o _data/code.json GSA GSA"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "code-clerk": "^0.3.4"
+  }
+}

@@ -1,0 +1,40 @@
+---
+layout: base.njk
+---
+
+{{ content | safe }}
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for release in code.releases %}
+      <tr>
+        <td>
+          <a href="{{ release.repositoryURL }}">{{ release.name }}</a>
+        </td>
+        <td>
+          {{ release.description }}
+        </td>
+        <td>
+          {% if release.permissions.usageType == "openSource" %}
+            ✅ Open
+          {% else %}
+            ❎ Closed
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<style>
+  td {
+    min-width: 10em;
+  }
+</style>
