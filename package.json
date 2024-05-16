@@ -5,6 +5,7 @@
   "scripts": {
     "start": "eleventy",
     "dev": "eleventy --serve",
+    "federalist": "eleventy",
     "inventory": "mkdir -p _data && npx codeclerk -t GITHUB_TOKEN -o _data/code.json GSA GSA"
   },
   "author": "",
