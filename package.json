@@ -11,6 +11,6 @@
   "license": "CC0-1.0",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "code-clerk": "^0.3.4"
+    "code-clerk": "^1.0.0"
   }
 }
