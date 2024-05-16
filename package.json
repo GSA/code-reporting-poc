@@ -9,9 +9,6 @@
   },
   "author": "",
   "license": "CC0-1.0",
-   "engines" : {
-    "node" : ">=20.0.0"
-  },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@uswds/compile": "^1.1.0",
