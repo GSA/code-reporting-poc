@@ -13,10 +13,10 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@uswds/compile": "^1.1.0",
-    "@uswds/uswds": "^3.8.0",
-    "code-clerk": "^1.1.0"
+    "@uswds/uswds": "^3.8.1",
+    "code-clerk": "^1.1.1"
   },
   "overrides": {
-    "glob-parent@<5.1.2": "^5.1.2"
+    "glob-parent@<5.1.2": ">=5.1.2"
   }
 }
